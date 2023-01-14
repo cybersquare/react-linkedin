@@ -1,0 +1,17 @@
+.sidebar__recentItem {
+    display: flex;
+    font-size: 13px;
+    /* padding: 5px; */
+    align-items: center;
+    color: gray;
+    /* margin-bottom: 5px; */
+    font-weight: bolder;
+    cursor: pointer;
+    /* margin: 0px; */
+    /* background-color: brown; */
+}
+
+.sidebar__hash{
+    margin-left: 5px;
+    margin-right: 10px;
+}
