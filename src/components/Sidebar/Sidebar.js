@@ -15,7 +15,7 @@ const Sidebar = ()=> {
         <div className="sidebar">
             <div className="sidebar__top">
                 <img src="https://shorturl.at/hiwJY" alt="background"/>
-                <Avatar className="sidebar_avatar"/>
+                <Avatar className="sidebar_avatar" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"/>
                 <h2>Muhammad</h2>
                 <h4>shahid@medisheets.com</h4>
             </div>
