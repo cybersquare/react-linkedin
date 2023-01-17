@@ -1,0 +1,33 @@
+.widgets__article {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 20px;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  /* margin: 0; */
+  /* background-color: blueviolet; */
+}
+
+.widgets__article_left {
+  /* margin: 0; */
+  margin-left: 10px;
+  /* background-color: green; */
+}
+
+.widgets__article_right {
+  /* background-color: gold; */
+  margin-left: 10px;
+}
+
+.widgets__article_right > h4 {
+  font-size: 15px;
+  margin: 0;
+  color: #555;
+}
+
+.widgets__article_right > p {
+  font-size: 12px;
+  margin: 0;
+  color: #191919;
+}

@@ -1,0 +1,23 @@
+.widgets__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.widgets {
+  margin-right: 20px;
+  background-color: white;
+  top: 80px;
+  position: sticky;
+  flex: 0.2;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.widgets__header > h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
