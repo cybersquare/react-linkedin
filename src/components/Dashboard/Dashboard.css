@@ -1,0 +1,5 @@
+.app__body {
+  background-color: #f3f2ee;
+  display: flex;
+  height: fit-content;
+}
