@@ -1,6 +1,7 @@
 import NewsItem from "../NewsItem/NewsItem";
 import Info from "@mui/icons-material/InfoSharp";
 import "./Widget.css";
+import React from 'react';
 
 function Widget(){
 

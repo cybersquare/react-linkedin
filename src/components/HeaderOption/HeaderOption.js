@@ -1,5 +1,6 @@
 import Avatar from "@mui/material/Avatar";
-import "./HeaderOption.css"
+import "./HeaderOption.css";
+import React from 'react';
 
 const HeaderOption = ({avatar,Icon,title}) => {
     return(

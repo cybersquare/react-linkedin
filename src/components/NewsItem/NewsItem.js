@@ -1,5 +1,6 @@
 import FiberManualRecord from '@mui/icons-material/FiberManualRecord';
-import "./NewsItem.css"
+import "./NewsItem.css";
+import React from 'react';
 
 function NewsItem(props) {
     return(<div className="widgets__article">

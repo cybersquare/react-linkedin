@@ -3,6 +3,7 @@ import ThumbUpAltOutlined from "@mui/icons-material/ThumbUpAltOutlined";
 import ChatOutlined from "@mui/icons-material/ChatOutlined";
 import ShareOutlined from "@mui/icons-material/ShareOutlined";
 import SendOutlined from "@mui/icons-material/SendOutlined";
+import React from 'react';
 
 import "./Post.css";
 import { Avatar } from "@mui/material";

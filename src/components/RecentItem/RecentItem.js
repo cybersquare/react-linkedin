@@ -1,4 +1,5 @@
-import "./RecentItem.css"
+import "./RecentItem.css";
+import React from 'react';
 
 const RecentItem = (props)=> {
     return(

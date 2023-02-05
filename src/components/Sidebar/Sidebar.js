@@ -1,6 +1,7 @@
 import { Avatar } from "@mui/material";
 import "./Sidebar.css";
 import RecentItem from "../RecentItem/RecentItem";
+import React from 'react';
 
 const Sidebar = ()=> {
 
