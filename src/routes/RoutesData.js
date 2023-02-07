@@ -4,13 +4,19 @@ import Signup from "../components/Signup/Signup";
 
 const RouteData = {
     login: {
-        path: "/",
+        path: "/login",
         component: Login,
         menuText:"Login",
         isPrivate: false
     },
     signup: {
         path: "/signup",
+        component: Signup,
+        menuText:"Sign Up",
+        isPrivate: false
+    },
+    root: {
+        path: "/",
         component: Signup,
         menuText:"Sign Up",
         isPrivate: false
