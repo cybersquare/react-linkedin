@@ -3,10 +3,21 @@ import React from "react";
 import Logo from "../../svg/linkedin-signup-logo.svg"; 
 import footerLogo from "../../svg/footer-logo.svg"; 
 import {Helmet} from "react-helmet";
-import googleLogo from "../../svg/google.svg"; 
-
+import googleLogo from "../../svg/google.svg";
+import firebase from "../../firebase";
+import { useDispatch } from "react-redux";
+import { signup } from "../../app/slices/user_slice";
 
 const Signup = () => {
+    const dispatch = useDispatch();
+    async function OnClickSignup(){
+        console.log("tapped")
+        dispatch(signup({}));
+    }
+
+
+
+
     return (
         <div className={style.signUpMain}>
             <Helmet>
@@ -30,12 +41,12 @@ const Signup = () => {
                             <a target="_blank" href="https://www.linkedin.com/" className={style.join_form__form_body_agreement_item_link} rel="noopener noreferrer">Privacy Policy</a> , and 
                             <a target="_blank" href="https://www.linkedin.com/" className={style.join_form__form_body_agreement_item_link} rel="noopener noreferrer"> Cookie Policy</a>
                         </span>
-                        <button type="submit" id="join-form-submit" className={style.join__form__form_body_submit_button} value="Agree &amp; Join" data-tracking-control-name="registration-frontend_join-form-submit">Agree &amp; Join</button>
+                        <button onClick={OnClickSignup} type="submit" id="join-form-submit" className={style.join__form__form_body_submit_button} value="Agree &amp; Join" data-tracking-control-name="registration-frontend_join-form-submit">Agree &amp; Join</button>
                         <div className={style.third_party_join__container}>
                             <h2 className={style.h2Tag}><span className={style.spanTag}>Or</span></h2>
                         </div>
                         <div className={style.continueGoogle}>
-                            <img src={googleLogo} width="25px"/>
+                            <img src={googleLogo} width="25px" alt=""/>
                             <p> Continue with Google</p>
                         </div>
                         <p className={style.main__sign_in_container}>
